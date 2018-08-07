@@ -5,7 +5,8 @@ using namespace std;
 
 int main() {
 	cout << "Have change";
-  cout << "Have change something";
+  cout << "Have change something123";
+  cout << "Have change something more";
 	List<int> *l = new Stack<int>;
 	l->insert(1);
 	l->eject();
