@@ -4,8 +4,11 @@
 using namespace std;
 
 int main() {
-	Stack <int> list;
-	list.insert(3);
-	list.insert(4);
-	list.display();
+	cout << "Have change";
+	List<int> *l = new Stack<int>;
+	l->insert(1);
+	l->eject();
+	l->insert(2);
+	l->insert(5);
+	l->insert(8);
 }
