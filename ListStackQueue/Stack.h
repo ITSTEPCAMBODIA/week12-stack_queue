@@ -21,5 +21,11 @@ inline void Stack<T>::insert(T t)
 template<class T>
 inline void Stack<T>::eject()
 {
-	cout << "test";
+	if (count > 0) {
+		List <T> temp[count - 1];
+		for (int i = 0; i < count - 1; i++)		temp[i] = ts[i];
+		delete[]ts;
+		ts = &temp;
+	}
 }
+
