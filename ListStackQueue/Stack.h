@@ -30,7 +30,7 @@ template<class T>
 inline void Stack<T>::eject()
 {
 	if (count > 0) {
-		List <T> *temp new List <T>[count - 1];
+		List <T> *temp = new List <T>[count - 1];
 		for (int i = 0; i < count - 1; i++)		temp[i] = ts[i];
 		delete[]ts;
 		ts = &temp;
