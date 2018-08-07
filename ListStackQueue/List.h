@@ -31,6 +31,6 @@ inline List<T>::~List()
 template<class T>
 inline void List<T>::display()
 {
-	for (int i = 0; i < count; i++) cout << ts[i] << ' ';
+	for (int i = 0; i < this->count; i++) cout << ts[i] << ' ';
 	cout << endl;
 }
