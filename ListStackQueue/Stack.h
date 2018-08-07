@@ -16,8 +16,8 @@ template<class T> inline Stack<T>::~Stack(){}
 template<class T>
 inline void Stack<T>::insert(T t)
 {
-	List *tmp = ts;
-	ts = new List[count + 1];
+	List <T> *tmp = ts;
+	ts = new List<T>[count + 1];
 	for (int i = 0; i < count; i++)
 		ts[i] = tmp[i];
 	ts[count] = t;
