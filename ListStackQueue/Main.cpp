@@ -11,4 +11,5 @@ int main() {
 	l->insert(2);
 	l->insert(5);
 	l->insert(8);
+	system("pause");
 }
