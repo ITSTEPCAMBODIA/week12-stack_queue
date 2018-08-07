@@ -6,7 +6,7 @@ template<class T> class Queue :
 public:
 	Queue();
 	virtual ~Queue();
-	virtual void insert(T t);
-	virtual void eject();
+	virtual void insert(T t);//Sakal
+	virtual void eject();//Da veat hello
 };
 
