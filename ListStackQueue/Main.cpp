@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	cout << "hello teacher i am sakal\n";
+	cout << "hello";
 	List<int> *l = new Stack<int>;
 	l->insert(1);
 	l->eject();
