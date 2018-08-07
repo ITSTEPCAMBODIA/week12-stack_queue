@@ -6,8 +6,8 @@ template<class T> class Stack :
 public:
 	Stack();
 	virtual ~Stack();
-	virtual void insert(T t);
-	virtual void eject();
+	virtual void insert(T t);//Pheaktra
+	virtual void eject();//Kimly
 };
 
 template<class T> inline Stack<T>::Stack(){}
