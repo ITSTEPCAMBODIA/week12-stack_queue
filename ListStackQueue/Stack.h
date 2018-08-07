@@ -33,7 +33,7 @@ inline void Stack<T>::eject()
 		List <T> *temp = new List <T>[count - 1];
 		for (int i = 0; i < count - 1; i++)		temp[i] = ts[i];
 		delete[]ts;
-		ts = &temp;
+		ts = temp;
 		count--;
 	}
 }
