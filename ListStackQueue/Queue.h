@@ -7,6 +7,6 @@ public:
 	Queue();
 	virtual ~Queue();
 	virtual void insert(T t);//Sakal
-	virtual void eject();//Da veat
+	virtual void eject();//Da veat hello
 };
 
