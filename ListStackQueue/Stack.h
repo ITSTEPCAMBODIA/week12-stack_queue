@@ -21,4 +21,5 @@ inline void Stack<T>::insert(T t)
 template<class T>
 inline void Stack<T>::eject()
 {
+	cout << "test";
 }
