@@ -34,6 +34,7 @@ inline void Stack<T>::eject()
 		for (int i = 0; i < count - 1; i++)		temp[i] = ts[i];
 		delete[]ts;
 		ts = &temp;
+		count--;
 	}
 }
 
