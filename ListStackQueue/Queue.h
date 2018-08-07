@@ -4,8 +4,8 @@ template<class T> class Queue :
 	public List<T>
 {
 public:
-	Queue();
-	virtual ~Queue();
+	Queue();//dara
+	virtual ~Queue();//dara
 	virtual void insert(T t);//Sakal
 	virtual void eject();//Da veat hello
 };
