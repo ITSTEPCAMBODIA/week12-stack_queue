@@ -16,12 +16,12 @@ template<class T> inline Stack<T>::~Stack(){}
 template<class T>
 inline void Stack<T>::insert(T t)
 {
-	T *tmp = ts;
-	ts = new T[count + 1];
-	for (int i = 0; i < count; i++)
-		ts[i] = tmp[i];
-	ts[count] = t;
-	count++;
+	T *tmp = this->ts;
+	this->ts = new T[this->count + 1];
+	for (int i = 0; i < this->count; i++)
+		this->ts[i] = tmp[i];
+	this->ts[this->count] = t;
+	this->count++;
 	if (tmp)
 		delete[] tmp;
 }
@@ -29,12 +29,12 @@ inline void Stack<T>::insert(T t)
 template<class T>
 inline void Stack<T>::eject()
 {
-	if (count > 0) {
-		T *temp = new T [count - 1];
-		for (int i = 0; i < count - 1; i++)		temp[i] = ts[i];
-		delete[]ts;
-		ts = temp;
-		count--;
+	if (this->count > 0) {
+		T *temp = new T [this->count - 1];
+		for (int i = 0; i < this->count - 1; i++)		temp[i] = this->ts[i];
+		delete[]this->ts;
+		this->ts = temp;
+		this->count--;
 	}
 }
 
