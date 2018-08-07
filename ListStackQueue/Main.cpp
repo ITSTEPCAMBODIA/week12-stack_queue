@@ -8,4 +8,9 @@ int main() {
 	list.insert(3);
 	list.insert(4);
 	list.display();
+	list.eject();
+	list.display();
+	list.insert(9);
+	list.display();
+	system("pause");
 }
