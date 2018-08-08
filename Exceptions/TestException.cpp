@@ -13,7 +13,7 @@ int main() {
 	try {
 		//addition(a, b);
 		int z = a + b;
-		throw 2.0;
+		throw 2/2.0f;
 	}
 	catch (int c) {
 		cout << "Division by " << c << endl;
@@ -23,7 +23,7 @@ int main() {
 		cout << "ERROR: "<<b<<" should be less than "<<a<<endl;
 	}
 	catch (...) {
-
+		cout << "Some Error.";
 	}
 	system("pause");
 }
