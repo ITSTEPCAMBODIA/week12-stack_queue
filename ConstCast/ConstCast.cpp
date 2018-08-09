@@ -1,4 +1,5 @@
 #include<iostream>
+#include<ctime>
 using namespace std;
 void test_pow(const int*x) {
 	int *t;
@@ -10,5 +11,7 @@ int main() {
 	cout << "Before: " << x << endl;
 	test_pow(&x);
 	cout << "After: " << x << endl;
+	volatile time_t t;
+	time(&t);
 	system("pause");
 }

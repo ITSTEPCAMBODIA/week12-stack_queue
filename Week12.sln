@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingNamespaces", "UsingNam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstCast", "ConstCast\ConstCast.vcxproj", "{F0F34FC7-1A2D-4F04-B07F-901106E7A27F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvalMath", "EvalMath\EvalMath.vcxproj", "{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{F0F34FC7-1A2D-4F04-B07F-901106E7A27F}.Release|x64.Build.0 = Release|x64
 		{F0F34FC7-1A2D-4F04-B07F-901106E7A27F}.Release|x86.ActiveCfg = Release|Win32
 		{F0F34FC7-1A2D-4F04-B07F-901106E7A27F}.Release|x86.Build.0 = Release|Win32
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Debug|x64.ActiveCfg = Debug|x64
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Debug|x64.Build.0 = Debug|x64
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Debug|x86.Build.0 = Debug|Win32
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Release|x64.ActiveCfg = Release|x64
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Release|x64.Build.0 = Release|x64
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Release|x86.ActiveCfg = Release|Win32
+		{6DAD8CA2-76FE-42F7-BE8E-DA6C1E4EBCD3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
